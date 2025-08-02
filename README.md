@@ -25,3 +25,23 @@ test('basic test', async ({ page }) => {
   - Filtering locators
 
 ### [Assertion](https://playwright.dev/docs/test-assertions#introduction)
+
+### First Automation Test
+- Using the examples from Playwright including Navigate to Playwright Homepage, To-Do Apps
+
+#### Apply BDD + POM
+1. Define <code>.feature</code>
+2. Create <code>step_definitions</code> directory storing <code>.steps.ts</code> step definition file (Using <code>Gherkin</code>)
+3. Create <code>Page Object</code> class for reusable
+4. Configure <code>hooks.ts</code> for setting up Playwright
+
+
+### Note-taking from issues
+#### tsconfig.ts require
+- Cucumber doesn't run <code>.ts</code> files natively --> <code>ts-node</code> interpret step files and support code
+- With <code>tsconfig.json</code>, we can:
+  - TS version
+  - how modules are structured (CommonJS vs ESModules) --> .ts at the end or none
+  - which files to include
+#### ts-node
+- System runs <code>.ts</code> without compilling them first
