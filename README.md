@@ -27,7 +27,7 @@ test('basic test', async ({ page }) => {
 ### [Assertion](https://playwright.dev/docs/test-assertions#introduction)
 
 ### First Automation Test
-- Using the examples from Playwright including Navigate to Playwright Homepage, To-Do Apps
+- Using the examples from Playwright including Navigate to Playwright Homepage, To-Do Apps.
 
 #### Apply BDD + POM
 1. Define <code>.feature</code>
