@@ -35,6 +35,20 @@ test('basic test', async ({ page }) => {
 3. Create <code>Page Object</code> class for reusable
 4. Configure <code>hooks.ts</code> for setting up Playwright
 
+### Cucumber Core Concepts
+1. Feature
+  - A group of related test cases
+  - What functionality you're validating
+  - Usually a user story in Agile
+2. Scenario
+  - A concrete example or test case within a Feature
+  - Include test steps defining <code>Given</code>, <code>When</code>, <code>Then</code> Arrange - Act - Assert concept
+  - Can have multiple Scenarios to cover difference cases: valid, invalid input, etc
+
+### Cucumber, Playwright Mapping Concepts
+1. Feature === test.describe()
+2. Scenario === test()
+3. Step === inside test() logic
 
 ### Note-taking from issues
 #### tsconfig.ts require
